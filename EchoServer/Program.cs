@@ -5,7 +5,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var wssv = new WebSocketServer("ws://172.31.54.242:6666");
+        var wssv = new WebSocketServer(6666);
         
         wssv.AddWebSocketService<Echo>("/Echo");
         

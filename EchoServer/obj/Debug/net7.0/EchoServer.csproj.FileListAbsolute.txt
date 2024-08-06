@@ -1,0 +1,17 @@
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/bin/Debug/net7.0/EchoServer
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/bin/Debug/net7.0/EchoServer.deps.json
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/bin/Debug/net7.0/EchoServer.runtimeconfig.json
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/bin/Debug/net7.0/EchoServer.dll
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/bin/Debug/net7.0/EchoServer.pdb
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/bin/Debug/net7.0/websocket-sharp.dll
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.csproj.AssemblyReference.cache
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.AssemblyInfoInputs.cache
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.AssemblyInfo.cs
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.csproj.CoreCompileInputs.cache
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.csproj.CopyComplete
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.dll
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/refint/EchoServer.dll
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.pdb
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/EchoServer.genruntimeconfig.cache
+/Users/sandwich1991/Desktop/EchoServer/EchoServer/obj/Debug/net7.0/ref/EchoServer.dll
