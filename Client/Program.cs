@@ -5,7 +5,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        string url = "ws://172.31.54.242:6666/Echo";
+        string url = "ws://43.202.161.57:6666/Echo";
         using (var ws = new WebSocket(url))
         {
             ws.OnOpen += (sender, e) =>
