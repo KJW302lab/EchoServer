@@ -1,16 +1,22 @@
-﻿using WebSocketSharp;
+﻿using System;
+using WebSocketSharp;
 using WebSocketSharp.Server;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        var wssv = new WebSocketServer("ws://172.31.54.242:6666");
-        
-        wssv.AddWebSocketService<Echo>("/Echo");
+        var wssv = new WebSocketServer("ws://0.0.0.0:6666");
+
+        wssv.AddWebSocketService<Echo>("/Echo", () =>
+        {
+            var service = new Echo();
+            service.SetCORSHeaders();
+            return service;
+        });
         
         wssv.Start();
-        Console.WriteLine("WebSocket Server started on ws://172.31.54.242:6666/Echo. Press any key to exit...");
+        Console.WriteLine("WebSocket Server started on ws://0.0.0.0:6666/Echo. Press any key to exit...");
         Console.ReadKey(true);
         wssv.Stop();
     }
@@ -18,6 +24,11 @@ public class Program
 
 public class Echo : WebSocketBehavior
 {
+    public void SetCORSHeaders()
+    {
+        Context.Headers.Add("Access-Control-Allow-Origin", "*");
+    }
+
     protected override void OnOpen()
     {
         Console.WriteLine("Connection opened from: " + Context.UserEndPoint);
@@ -36,6 +47,6 @@ public class Echo : WebSocketBehavior
 
     protected override void OnError(WebSocketSharp.ErrorEventArgs e)
     {
-        Console.WriteLine($"Error occurred : {e.Message}");
+        Console.WriteLine($"Error occurred: {e.Message}");
     }
 }
