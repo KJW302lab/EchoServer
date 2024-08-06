@@ -27,6 +27,7 @@ public class Echo : WebSocketBehavior
     public void SetCORSHeaders()
     {
         Context.Headers.Add("Access-Control-Allow-Origin", "*");
+        Context.Headers.Add("Access-Control-Allow-Headers", "content-type");
     }
 
     protected override void OnOpen()
